@@ -57,8 +57,8 @@ The purpose of this analysis is to help Beks learn about neural networks and how
 
 ## Summary: 
 
-After removing noisy variables from features, ddding more neurons to a hidden layer, adding additional hidden layer, using different activation functions for the hidden layers, and adding the number of epochs to the training regimen the target predictive accuracy higher than 75% could not be achieved.
+After removing noisy variables from features, ddding more neurons to a hidden layer, adding additional hidden layer, using different activation functions for the hidden layers, and adding the number of epochs to the training regimen the target predictive accuracy higher than 75% could not be achieved, since the model seems to be not outperforming.
 
 #### Recommendation
 
-
+A random forest model could be used instead 
