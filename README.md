@@ -1,14 +1,14 @@
 # Neural_Network_Charity_Analysis
 
-## Overview of the analysis: 
+## Overview of the Analysis: 
 
-Beks is a data scientist and programmer for the nonprofit foundation Alphabet Soup. They're a philantropic foundation dedicated to helping organizations that protect the environment, improve people's well-being, and unify the world. Alphabet Soup has raised and donated over 10 billion dollars in the past 20 years. This money has been used to invest in lifesaving technologies and organize reforestation groups around the world. 
+Beks is a data scientist and programmer for the nonprofit foundation, Alphabet Soup. They're a philantropic foundation dedicated to helping organizations that protect the environment, improve people's well-being, and unify the world. Alphabet Soup has raised and donated over 10 billion dollars in the past 20 years. This money has been used to invest in lifesaving technologies and organize reforestation groups around the world. 
 
 Beks is in charge of data collection and analysis for the entire organization. Her job is to analyze the impact of each donation and vet potential recipients. This helps ensure that the foundation's money is being used effectively. Unfortunately, not every donation the company makes is impactful. In some cases an organization will take the money and disappear. As a result, Alphabet Soup's president Andy Glad has asked Beks to predict which organizations are worth donating to and which are too high risk. He wants her to create a mathematical data driven solution that can do this accurately. Beks has decided that this problem is too complex for the statistical and machine learning models she has used. Instead she will design and train a deep learning neural network. This model will evaluate all types of input data and produce a clear decision making result.
 
 ### Purpose
 
-The purpose of this analysis is to help Beks learn about neural networks and how to design and train these models using the Python TensorFlow library. To use the features in the provided dataset to help Beks create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.
+The purpose of this analysis is to help Beks learn about neural networks and how to design and train these models using the Python TensorFlow library. Using the features in the provided dataset to help Beks create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.
 
 ## Results: 
 
