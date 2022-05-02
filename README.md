@@ -12,15 +12,13 @@ The purpose of this analysis is to help Beks learn about neural networks and how
 
 ## Results: 
 
-Using bulleted lists and images to support your answers, address the following questions.
-
 ### Data Preprocessing
 
-- What variable(s) are considered the target(s) for your model?
+- The column 'IS_SUCCESSFUL' is considered the target for the model.
 
-- What variable(s) are considered to be the features for your model?
+- The columns 'APPLICATION_TYPE', 'AFFILIATION', 'CLASSIFICATION', 'USE_CASE', 'ORGANIZATION', 'INCOME_AMT', and 'SPECIAL_CONSIDERATIONS' are considered to be the features for the model.
 
-- What variable(s) are neither targets nor features, and should be removed from the input data?
+- The variables 'EIN' and 'Name' are neither targets nor features, and was removed from the data.
 
 ### Compiling, Training, and Evaluating the Model
 
