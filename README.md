@@ -16,17 +16,44 @@ The purpose of this analysis is to help Beks learn about neural networks and how
 
 - The column 'IS_SUCCESSFUL' is considered the target for the model.
 
+<img width="1012" alt="Screen Shot 2022-05-02 at 3 35 41 PM" src="https://user-images.githubusercontent.com/95826875/166313686-df6eb172-1dc9-4989-a979-66e79b37fcd7.png">
+
 - The columns 'APPLICATION_TYPE', 'AFFILIATION', 'CLASSIFICATION', 'USE_CASE', 'ORGANIZATION', 'INCOME_AMT', and 'SPECIAL_CONSIDERATIONS' are considered to be the features for the model.
+
+<img width="1013" alt="Screen Shot 2022-05-02 at 3 35 57 PM" src="https://user-images.githubusercontent.com/95826875/166313741-6879de55-0457-4ecd-8aa9-d8250197c7d0.png">
 
 - The variables 'EIN' and 'Name' are neither targets nor features, and was removed from the data.
 
+<img width="1016" alt="Screen Shot 2022-05-02 at 3 36 16 PM" src="https://user-images.githubusercontent.com/95826875/166313775-18c922ca-a4c6-4035-91fb-78611778064a.png">
+
 ### Compiling, Training, and Evaluating the Model
 
-- How many neurons, layers, and activation functions did you select for your neural network model, and why?
+- For the neural model here is made of two layers with 80 and 30 neurons respectively. The activation function used for the hidden layers is 'relu', and 'sigmoid' is used for the output layer.
 
-- Were you able to achieve the target model performance?
+<img width="1016" alt="Screen Shot 2022-05-02 at 3 45 43 PM" src="https://user-images.githubusercontent.com/95826875/166314973-0940ac57-0edc-4454-8a85-06aab9725cf5.png">
 
-- What steps did you take to try and increase model performance?
+- The target model performance which was supposed to be higher than 75% coul not be achieved. It was able to achieve an acuuraccy of 72.5%.
+
+<img width="490" alt="Screen Shot 2022-05-02 at 3 50 03 PM" src="https://user-images.githubusercontent.com/95826875/166315531-fae5156f-a6cb-4521-b7f3-11bf7299f695.png">
+
+- Steps which were taken to try and increase model performance were:
+
+1. Adding more Neurons to a Hidden Layer.
+
+<img width="925" alt="Screen Shot 2022-05-02 at 3 59 59 PM" src="https://user-images.githubusercontent.com/95826875/166316916-f1e99190-6e2f-4af5-979e-2466b7ba4651.png">
+
+2. Additional hidden layer is added as a third layer.
+
+<img width="915" alt="Screen Shot 2022-05-02 at 3 57 22 PM" src="https://user-images.githubusercontent.com/95826875/166316661-710d9bd8-d3b0-49bc-a798-76b450978e3f.png">
+
+3. The activation function of hidden layers is changed from 'relu' to 'tanh' for optimization.
+
+<img width="916" alt="Screen Shot 2022-05-02 at 3 57 44 PM" src="https://user-images.githubusercontent.com/95826875/166316667-80da30c2-5223-4823-a921-a78f0fcc44b1.png">
+
+4. Adding the number of epochs to the training regimen.
+
+<img width="926" alt="Screen Shot 2022-05-02 at 3 58 05 PM" src="https://user-images.githubusercontent.com/95826875/166316695-1183933d-cafd-439b-b1b7-0431f5fb3d30.png">
+
 
 ## Summary: 
 
