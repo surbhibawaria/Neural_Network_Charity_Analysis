@@ -61,4 +61,4 @@ After removing noisy variables from features, ddding more neurons to a hidden la
 
 #### Recommendation
 
-A random forest model could be used instead 
+A random forest classifier could be used instead since the targeted accuracy score was achieved with the neural networks here. Random forest model would perform faster than the neural networks and could have avoided the data from being overfitted.
