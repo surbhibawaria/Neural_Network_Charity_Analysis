@@ -57,4 +57,8 @@ The purpose of this analysis is to help Beks learn about neural networks and how
 
 ## Summary: 
 
-Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+After removing noisy variables from features, ddding more neurons to a hidden layer, adding additional hidden layer, using different activation functions for the hidden layers, and adding the number of epochs to the training regimen the target predictive accuracy higher than 75% could not be achieved.
+
+#### Recommendation
+
+
