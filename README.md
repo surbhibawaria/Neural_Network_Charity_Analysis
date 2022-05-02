@@ -52,7 +52,7 @@ The purpose of this analysis is to help Beks learn about neural networks and how
 
 4. Adding the number of epochs to the training regimen.
 
-<img width="926" alt="Screen Shot 2022-05-02 at 3 58 05 PM" src="https://user-images.githubusercontent.com/95826875/166316695-1183933d-cafd-439b-b1b7-0431f5fb3d30.png">
+
 
 
 ## Summary: 
